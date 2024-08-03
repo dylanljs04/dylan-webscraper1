@@ -13,7 +13,7 @@ article_author = soup.find(class_ ='byline__name')
 article_date = soup.find('div', class_ ='timestamp')
 # article contents are 
 article_contents = soup.find_all('p', class_ ='paragraph inline-placeholder')
-
+print("hi")
 
 print(f"Title: {article_title.text}")
 print(f"\nAuthor: {article_author.text}")
